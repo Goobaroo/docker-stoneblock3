@@ -7,7 +7,7 @@ LABEL homepage.group=Minecraft
 LABEL homepage.name="FTB StoneBlock 3"
 LABEL homepage.icon="https://apps.modpacks.ch/modpacks/art/96/stoneblock_logo.png"
 LABEL homepage.widget.type=minecraft
-LABEL homepage.widget.url=Stoneblock3:25565
+LABEL homepage.widget.url=udp://Stoneblock3:25565
 
 
 RUN apt-get update && apt-get install -y curl && \
