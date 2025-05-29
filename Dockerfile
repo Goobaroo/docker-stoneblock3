@@ -2,7 +2,7 @@
 
 FROM openjdk:17.0.2-jdk-buster
 
-LABEL version="1.11.4"
+LABEL version="1.11.5"
 LABEL homepage.group=Minecraft
 LABEL homepage.name="FTB StoneBlock 3"
 LABEL homepage.icon="https://cdn.feed-the-beast.com/blob/27/277ea696db174dabd3cdc1ba9f6120218c8f9c6aea916855140f6be41adf821a.png"
@@ -23,7 +23,7 @@ WORKDIR /data
 
 EXPOSE 25565/tcp
 
-ENV MOTD="FTB StoneBlock 3 v1.11.4 Server Powered by Docker"
+ENV MOTD="FTB StoneBlock 3 v1.11.5 Server Powered by Docker"
 ENV LEVEL=world
 ENV JVM_OPTS="-Xms4096m -Xmx6144m"
 
